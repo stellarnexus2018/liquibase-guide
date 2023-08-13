@@ -14,7 +14,7 @@ public class Author {
     Long id;
 
     @Column(nullable = false)
-    String name;
+    String fullname;
 
     public Long getId() {
         return id;
@@ -24,11 +24,11 @@ public class Author {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getFullname() {
+        return fullname;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setFullname(String name) {
+        this.fullname = name;
     }
 }

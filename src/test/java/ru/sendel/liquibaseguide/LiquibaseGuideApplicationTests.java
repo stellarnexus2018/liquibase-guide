@@ -8,6 +8,7 @@ class LiquibaseGuideApplicationTests {
 
 	@Test
 	void contextLoads() {
+		System.out.println("Да это просто проверка");
 	}
 
 }
